@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compartible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>LISTA 1</title>
+</head>
+<body>
+  <h2>Formulário</h2>
+  <form action="/action_page.php">
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" size="60"
+    <label for="data de nascimento"> <br> Data De Nascimento:</label>
+    <input type="date" id="data de nascimento" name="data de nascimento" size="25"</br>
+    <label for="endereço"> <br>Endereço:</label>
+    <input type="text" id="endereço" name="endereço" size="56" </br>
+    <label for="bairro"> <br>Bairro:</label> 
+    <input type="text" id="bairro" name="bairro"
+    <label for="Cidade">Cidade:</label>
+    <input type="text" id="Cidade" name="Cidade"
+    <label form="CEP"> <br>CEP:</label>
+    <input type="number" id="CEP" name="CEP"
+    <label form="Estado"> Estado:</label>
+    <select id="Estado" name="Estado">
+      <option value="Ceará">Ceará</option>
+      <option value="Bahia">Bahia</option>
+      <option value="Pernanbuco">Pernanbuco</option>
+      <option value="Paraiba">Paraiba</option>
+      <option value="Outro">Rio Grande Do Norte</option>
+      </select>
+  </fieldset>
+
+    </form>
+  <br>
+  <fieldset>
+    <legend>Dados Profissionais</legend>
+    <p>Natureza Do Cargo</p>
+    <form>
+    <input type="radio" id="Gerência" name="fav_language" value="Gerência">
+    <label for="Gerência">Gerência</label>
+    <input type="radio" id="Financeiro" name="fav_language" value="Financeiro">
+    <label for="Financeiro">Financeiro</label>
+    <input type="radio" id="Recepção" name="fav_language" value="Recepção">
+    <label for="Recepção">Recepção</label>
+    <input type="radio" id="Administrativo" name="fav_language" value="Administrativo">
+    <label for="Administrativo">Administrativo</label>
+    <input type="radio" id="Juridico" name="fav_language" value="Juridico">
+    <label for="Juridico">Juridico</label>
+    
+    <p>Área De Interesse</p>
+    <input type="checkbox" id="CAT-A" name="FC1" value="FUNÇÃOA">
+    <label for="Computação"> Computação </label>
+    <input type="checkbox" id="CAT-B" name="FC2" value="FUNÇÃOB">
+    <label for="Quimica"> Quimica </label>
+    <input type="checkbox" id="CAT-C" name="FC3" value="FUNÇÃOC">
+    <label for="Meio Ambiente"> Meio Ambiente </label>
+    <input type="checkbox" id="CAT-D" name="FC4" value="FUNÇÃOD">
+    <label for="Engenharia"> Engenharia </label>
+    <input type="checkbox" id="CAT-E" name="FC5" value="FUNÇÃOE">
+    <label for="Matematica"> Matematica </label>
+
+    <P>Mini-Curriculo</P>
+      <textarea name="message" rows="10" cols="70">
+      </textarea> 
+
+    
+  </fieldset>
+  <br>
+
+<input type="submit" formaction="/action_page2.php" value="Enviar">
+<button>Limpar</button>
+
+
+</form>
+</body>
+
+</html>
